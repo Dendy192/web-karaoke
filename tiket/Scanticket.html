@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>TMR Kalcer</title>
+  <!-- MDB icon -->
+  <!-- <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" /> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/mdb.min.css" />
+  <!-- <link rel="stylesheet" href="css/mdb.dark.min.css" /> -->
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <!-- Collapse 1 -->
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse"
+            href="#collapseExample1" aria-expanded="true" aria-controls="collapseExample1">
+            <i class="fas fa-ticket-alt fa-fw me-3"></i><span>Tiket menu</span>
+          </a>
+          <!-- Collapsed content -->
+          <ul id="collapseExample1" class="collapse show list-group list-group-flush">
+            <li class="list-group-item py-1 active">
+              <a href="Scanticket.html" class="text-reset">Scan Tiket</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="ticketData.html" class="text-reset">Tiket Data</a>
+            </li>
+           
+            <li class="list-group-item py-1">
+              <a href="previewTiket.html" class="text-reset">Preview Tiket</a>
+            </li>
+
+          </ul>
+          <!-- Collapse 1 -->
+
+          <!-- Collapse 2 -->
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse"
+            href="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
+            <i class="fas fa-money-bill-wave fa-fw me-3"></i><span>Sales menu</span>
+          </a>
+          <!-- Collapsed content -->
+          <ul id="collapseExample2" class="collapse list-group list-group-flush">
+            <li class="list-group-item py-1">
+              <a href="/sales/createInvoice.html" class="text-reset">Create Invoice tiket</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="/sales/viewInvoice.html" class="text-reset">View Invoice tiket</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="" class="text-reset">Summary Sales</a>
+            </li>
+          </ul>
+          <!-- Collapse 2 -->
+          <!-- Collapse 3 -->
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse"
+            href="#collapseExample3" aria-expanded="true" aria-controls="collapseExample2">
+            <i class="fas fa-users fa-fw me-3"></i><span>Admin menu</span>
+          </a>
+          <!-- Collapsed content -->
+          <ul id="collapseExample3" class="collapse list-group list-group-flush">
+            <li class="list-group-item py-1">
+              <a href="" class="text-reset">Send Email</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="" class="text-reset">Email Status</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="" class="text-reset">Preview History</a>
+            </li>
+            <li class="list-group-item py-1">
+              <a href="" class="text-reset">Create User </a>
+            </li>
+          </ul>
+          <!-- Collapse 3 -->
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="25" alt="MDB Logo"
+            loading="lazy" />
+        </a>
+
+
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+          <li class="nav-item dropdown">
+
+            <!-- Avatar -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle" height="22"
+                alt="Avatar" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="index.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+
+
+
+  <!--Main layout-->
+  <main style="margin-top: 58px;">
+    <div class="container pt-4">
+      <!-- <div class="mask d-flex align-items-center h-100" > -->
+
+      <div class="container">
+
+        <!-- <div class="row d-flex justify-content-center"> -->
+        <div class="col">
+          <div class="row">
+
+            <div class="col">
+              Please Capture the ticket
+            </div>
+            <div class="col">
+              <!-- <label class="form-label" for="tiket">Capture Ticket</label> -->
+              <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark"
+                id="loadFileImg" onclick="document.getElementById('tiket').click();">
+                <i class="fas fa-camera fa-lg"></i>
+                Scan tiket
+              </button>
+              <input type="file" style="display: none;" class="form-control" id="tiket" accept="image/*">
+            </div>
+
+            <div class="col">
+
+              <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Submit
+                tiket</button>
+            </div>
+
+
+          </div>
+          <div class="row">
+            <br>
+          </div>
+          <div class="row">
+            <div class="col">
+              <table>
+                <tr>
+                  <td>samlekum</td>
+                  <td>:</td>
+                  <td>kumsalam</td>
+                </tr>
+                <tr>
+                  <td>samlekum</td>
+                  <td>:</td>
+                  <td>kumsalam</td>
+                </tr>
+                <tr>
+                  <td>samlekum</td>
+                  <td>:</td>
+                  <td>kumsalam</td>
+                </tr>
+              </table>
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+        <!-- </div> -->
+      </div>
+      <!-- </div> -->
+    </div>
+  </main>
+  <!--Main layout-->
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="/js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
